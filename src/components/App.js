@@ -11,17 +11,17 @@ function App() {
   ]);
 
   return (
-    <div>
-      <NavBar />
-      <Switch>
-        <Route path="/movies">
-          <MoviesPage movies={movies} />
-        </Route>
-        <Route exact path="/">
-          <div>Home</div>
-        </Route>
-      </Switch>
-    </div>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route path="/movies">
+            <MoviesPage movies={movies} />
+          </Route>
+          <Route exact path="/">
+            <div>Home</div>
+          </Route>
+        </Switch>
+      </div>
   );
 }
 
